@@ -1,0 +1,47 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%
+% Run this script to plot Figure 5 from the paper.
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Clear Matlab
+clc
+clear
+close all
+%
+set(groot,'defaulttextinterpreter','latex');
+set(groot,'defaultAxesTickLabelInterpreter','latex');
+set(groot,'defaultLegendInterpreter','latex');
+
+fileDir = ['./'];
+data = load([fileDir 'max_kf_DeltaMinus_vs_lambda.dat']);
+
+%conversion of T for t = 75meV -> [Kelvin]/conv = [t]
+conv = 870.3393754624;
+
+lamlist = data(:,1);  %strengths of electron-phonon couplings (the given
+% Fermi surface average mass enhancements)
+gaplist1 = 75*data(:,2); %max anti-bonding gap values for U = 0
+gaplist2 = 75*data(:,3); %max anti-bonding gap values for U = 7
+                         %
+
+figure(5);hold on;
+set(gcf,'color','white','Position',get(0,'Screensize'));
+f1 = plot(lamlist,gaplist1,'Marker','s','MarkerSize',20,'Color','r','LineWidth',2.5,'DisplayName','U = 0');
+set(f1, 'markerfacecolor', get(f1, 'color'));
+f2 = plot(lamlist,gaplist2,'Marker','o','MarkerSize',20,'Color','b','LineWidth',2.5,'DisplayName','U = 7t');
+set(f2, 'markerfacecolor', get(f2, 'color'));
+%text(0.01,18,'\textbf{b}','FontSize',35);
+xlabel('$\lambda_{m}$','FontSize',35);  ylabel('$\Delta_{-}(\textbf{k}^\textrm{max}_{-},$i$\pi$T$)$ [meV]','Fontsize',35);
+set(gca,'XTick',[0:0.01:0.25],'YTick',[0:1:25],'FontSize',35,'FontName','Latin Modern Roman');
+xticklabels({'0',' ',' ',' ',' ','0.05',' ',' ',' ',' ','0.1',' ',' ',' ',' ','0.15',' ',' ',' ',' ','0.20',' ',' ',' ',' ','0.25'});
+yticklabels({'0',' ',' ',' ',' ','5',' ',' ',' ',' ','10',' ',' ',' ',' ','15',' ',' ',' ',' ','20',' ',' ',' ',' ','25'});
+legend('FontSize',35,'FontName','Latin Modern Roman','Location','northwest')
+lgd = legend;
+lgd.NumColumns = 1;
+box on;
+axis([0.0 0.25 0.0 25]);
+legend('boxoff')
+hold off;

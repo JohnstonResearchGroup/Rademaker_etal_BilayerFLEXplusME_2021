@@ -1,0 +1,918 @@
+%apsrev4-2.bst 2019-01-14 (MD) hand-edited version of apsrev4-1.bst
+%Control: key (0)
+%Control: author (8) initials jnrlst
+%Control: editor formatted (1) identically to author
+%Control: production of article title (0) allowed
+%Control: page (0) single
+%Control: year (1) truncated
+%Control: production of eprint (0) enabled
+\begin{thebibliography}{57}%
+\makeatletter
+\providecommand \@ifxundefined [1]{%
+ \@ifx{#1\undefined}
+}%
+\providecommand \@ifnum [1]{%
+ \ifnum #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \@ifx [1]{%
+ \ifx #1\expandafter \@firstoftwo
+ \else \expandafter \@secondoftwo
+ \fi
+}%
+\providecommand \natexlab [1]{#1}%
+\providecommand \enquote  [1]{``#1''}%
+\providecommand \bibnamefont  [1]{#1}%
+\providecommand \bibfnamefont [1]{#1}%
+\providecommand \citenamefont [1]{#1}%
+\providecommand \href@noop [0]{\@secondoftwo}%
+\providecommand \href [0]{\begingroup \@sanitize@url \@href}%
+\providecommand \@href[1]{\@@startlink{#1}\@@href}%
+\providecommand \@@href[1]{\endgroup#1\@@endlink}%
+\providecommand \@sanitize@url [0]{\catcode `\\12\catcode `\$12\catcode
+  `\&12\catcode `\#12\catcode `\^12\catcode `\_12\catcode `\%12\relax}%
+\providecommand \@@startlink[1]{}%
+\providecommand \@@endlink[0]{}%
+\providecommand \url  [0]{\begingroup\@sanitize@url \@url }%
+\providecommand \@url [1]{\endgroup\@href {#1}{\urlprefix }}%
+\providecommand \urlprefix  [0]{URL }%
+\providecommand \Eprint [0]{\href }%
+\providecommand \doibase [0]{https://doi.org/}%
+\providecommand \selectlanguage [0]{\@gobble}%
+\providecommand \bibinfo  [0]{\@secondoftwo}%
+\providecommand \bibfield  [0]{\@secondoftwo}%
+\providecommand \translation [1]{[#1]}%
+\providecommand \BibitemOpen [0]{}%
+\providecommand \bibitemStop [0]{}%
+\providecommand \bibitemNoStop [0]{.\EOS\space}%
+\providecommand \EOS [0]{\spacefactor3000\relax}%
+\providecommand \BibitemShut  [1]{\csname bibitem#1\endcsname}%
+\let\auto@bib@innerbib\@empty
+%</preamble>
+\bibitem [{\citenamefont {Liu}\ \emph {et~al.}(2012)\citenamefont {Liu},
+  \citenamefont {Zhang}, \citenamefont {Mou}, \citenamefont {He}, \citenamefont
+  {Ou}, \citenamefont {Wang}, \citenamefont {Li}, \citenamefont {Wang},
+  \citenamefont {Zhao}, \citenamefont {He}, \citenamefont {Peng}, \citenamefont
+  {Liu}, \citenamefont {Chen}, \citenamefont {Yu}, \citenamefont {Liu},
+  \citenamefont {Dong}, \citenamefont {Zhang}, \citenamefont {Chen},
+  \citenamefont {Xu}, \citenamefont {Hu}, \citenamefont {Chen}, \citenamefont
+  {Ma}, \citenamefont {Xue},\ and\ \citenamefont {Zhou}}]{Liu:2012di}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Liu}}, \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont {Zhang}}, \bibinfo
+  {author} {\bibfnamefont {D.}~\bibnamefont {Mou}}, \bibinfo {author}
+  {\bibfnamefont {J.}~\bibnamefont {He}}, \bibinfo {author} {\bibfnamefont
+  {Y.-B.}\ \bibnamefont {Ou}}, \bibinfo {author} {\bibfnamefont {Q.-Y.}\
+  \bibnamefont {Wang}}, \bibinfo {author} {\bibfnamefont {Z.}~\bibnamefont
+  {Li}}, \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Wang}}, \bibinfo
+  {author} {\bibfnamefont {L.}~\bibnamefont {Zhao}}, \bibinfo {author}
+  {\bibfnamefont {S.}~\bibnamefont {He}}, \bibinfo {author} {\bibfnamefont
+  {Y.}~\bibnamefont {Peng}}, \bibinfo {author} {\bibfnamefont {X.}~\bibnamefont
+  {Liu}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Chen}}, \bibinfo
+  {author} {\bibfnamefont {L.}~\bibnamefont {Yu}}, \bibinfo {author}
+  {\bibfnamefont {G.}~\bibnamefont {Liu}}, \bibinfo {author} {\bibfnamefont
+  {X.}~\bibnamefont {Dong}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Zhang}}, \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Chen}},
+  \bibinfo {author} {\bibfnamefont {Z.}~\bibnamefont {Xu}}, \bibinfo {author}
+  {\bibfnamefont {J.}~\bibnamefont {Hu}}, \bibinfo {author} {\bibfnamefont
+  {X.}~\bibnamefont {Chen}}, \bibinfo {author} {\bibfnamefont {X.}~\bibnamefont
+  {Ma}}, \bibinfo {author} {\bibfnamefont {Q.}~\bibnamefont {Xue}},\ and\
+  \bibinfo {author} {\bibfnamefont {X.~J.}\ \bibnamefont {Zhou}},\ }\bibfield
+  {title} {\bibinfo {title} {Electronic origin of high-temperature
+  superconductivity in single-layer {FeSe} superconductor},\ }\href
+  {https://doi.org/10.1038/ncomms1946} {\bibfield  {journal} {\bibinfo
+  {journal} {Nature Communications}\ }\textbf {\bibinfo {volume} {3}},\
+  \bibinfo {pages} {931} (\bibinfo {year} {2012})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {He}\ \emph {et~al.}(2013)\citenamefont {He},
+  \citenamefont {He}, \citenamefont {Zhang}, \citenamefont {Zhao},
+  \citenamefont {Liu}, \citenamefont {Liu}, \citenamefont {Mou}, \citenamefont
+  {Ou}, \citenamefont {Wang}, \citenamefont {Li}, \citenamefont {Wang},
+  \citenamefont {Peng}, \citenamefont {Liu}, \citenamefont {Chen},
+  \citenamefont {Yu}, \citenamefont {Liu}, \citenamefont {Dong}, \citenamefont
+  {Zhang}, \citenamefont {Chen}, \citenamefont {Xu}, \citenamefont {Chen},
+  \citenamefont {Ma}, \citenamefont {Xue},\ and\ \citenamefont
+  {Zhou}}]{He:2013cna}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {He}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {He}}, \bibinfo
+  {author} {\bibfnamefont {W.}~\bibnamefont {Zhang}}, \bibinfo {author}
+  {\bibfnamefont {L.}~\bibnamefont {Zhao}}, \bibinfo {author} {\bibfnamefont
+  {D.}~\bibnamefont {Liu}}, \bibinfo {author} {\bibfnamefont {X.}~\bibnamefont
+  {Liu}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Mou}}, \bibinfo
+  {author} {\bibfnamefont {Y.-B.}\ \bibnamefont {Ou}}, \bibinfo {author}
+  {\bibfnamefont {Q.-Y.}\ \bibnamefont {Wang}}, \bibinfo {author}
+  {\bibfnamefont {Z.}~\bibnamefont {Li}}, \bibinfo {author} {\bibfnamefont
+  {L.}~\bibnamefont {Wang}}, \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {Peng}}, \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Liu}}, \bibinfo
+  {author} {\bibfnamefont {C.}~\bibnamefont {Chen}}, \bibinfo {author}
+  {\bibfnamefont {L.}~\bibnamefont {Yu}}, \bibinfo {author} {\bibfnamefont
+  {G.}~\bibnamefont {Liu}}, \bibinfo {author} {\bibfnamefont {X.}~\bibnamefont
+  {Dong}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Zhang}},
+  \bibinfo {author} {\bibfnamefont {C.}~\bibnamefont {Chen}}, \bibinfo {author}
+  {\bibfnamefont {Z.}~\bibnamefont {Xu}}, \bibinfo {author} {\bibfnamefont
+  {X.}~\bibnamefont {Chen}}, \bibinfo {author} {\bibfnamefont {X.}~\bibnamefont
+  {Ma}}, \bibinfo {author} {\bibfnamefont {Q.}~\bibnamefont {Xue}},\ and\
+  \bibinfo {author} {\bibfnamefont {X.~J.}\ \bibnamefont {Zhou}},\ }\bibfield
+  {title} {\bibinfo {title} {Phase diagram and electronic indication of
+  high-temperature superconductivity at {65 K} in single-layer {FeSe} films},\
+  }\href {https://doi.org/10.1038/nmat3648} {\bibfield  {journal} {\bibinfo
+  {journal} {Nature Materials}\ }\textbf {\bibinfo {volume} {12}},\ \bibinfo
+  {pages} {605} (\bibinfo {year} {2013})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Wang}\ \emph {et~al.}(2012)\citenamefont {Wang},
+  \citenamefont {Li}, \citenamefont {Zhang}, \citenamefont {Zhang},
+  \citenamefont {Zhang}, \citenamefont {Li}, \citenamefont {Ding},
+  \citenamefont {Ou}, \citenamefont {Deng}, \citenamefont {Chang},
+  \citenamefont {Wen}, \citenamefont {Song}, \citenamefont {He}, \citenamefont
+  {Jia}, \citenamefont {Ji}, \citenamefont {Wang}, \citenamefont {Wang},
+  \citenamefont {Chen}, \citenamefont {Ma},\ and\ \citenamefont
+  {Xue}}]{Wang:2012jx}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Q.-Y.}\ \bibnamefont
+  {Wang}}, \bibinfo {author} {\bibfnamefont {Z.}~\bibnamefont {Li}}, \bibinfo
+  {author} {\bibfnamefont {W.-H.}\ \bibnamefont {Zhang}}, \bibinfo {author}
+  {\bibfnamefont {Z.-C.}\ \bibnamefont {Zhang}}, \bibinfo {author}
+  {\bibfnamefont {J.-S.}\ \bibnamefont {Zhang}}, \bibinfo {author}
+  {\bibfnamefont {W.}~\bibnamefont {Li}}, \bibinfo {author} {\bibfnamefont
+  {H.}~\bibnamefont {Ding}}, \bibinfo {author} {\bibfnamefont {Y.-B.}\
+  \bibnamefont {Ou}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Deng}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Chang}},
+  \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Wen}}, \bibinfo {author}
+  {\bibfnamefont {C.-L.}\ \bibnamefont {Song}}, \bibinfo {author}
+  {\bibfnamefont {K.}~\bibnamefont {He}}, \bibinfo {author} {\bibfnamefont
+  {J.-F.}\ \bibnamefont {Jia}}, \bibinfo {author} {\bibfnamefont {S.-H.}\
+  \bibnamefont {Ji}}, \bibinfo {author} {\bibfnamefont {Y.-Y.}\ \bibnamefont
+  {Wang}}, \bibinfo {author} {\bibfnamefont {L.-L.}\ \bibnamefont {Wang}},
+  \bibinfo {author} {\bibfnamefont {X.}~\bibnamefont {Chen}}, \bibinfo {author}
+  {\bibfnamefont {X.-C.}\ \bibnamefont {Ma}},\ and\ \bibinfo {author}
+  {\bibfnamefont {Q.-K.}\ \bibnamefont {Xue}},\ }\bibfield  {title} {\bibinfo
+  {title} {{Interface-Induced High-Temperature Superconductivity in Single
+  Unit-Cell FeSe Films on SrTiO$_3$}},\ }\href@noop {} {\bibfield  {journal}
+  {\bibinfo  {journal} {Chinese Phys. Lett.}\ }\textbf {\bibinfo {volume}
+  {29}},\ \bibinfo {pages} {037402} (\bibinfo {year} {2012})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Hsu}\ \emph {et~al.}(2008)\citenamefont {Hsu},
+  \citenamefont {Luo}, \citenamefont {Yeh}, \citenamefont {Chen}, \citenamefont
+  {Huang}, \citenamefont {Wu}, \citenamefont {Lee}, \citenamefont {Huang},
+  \citenamefont {Chu}, \citenamefont {Yan},\ and\ \citenamefont
+  {Wu}}]{Hsu14262}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.-C.}\ \bibnamefont
+  {Hsu}}, \bibinfo {author} {\bibfnamefont {J.-Y.}\ \bibnamefont {Luo}},
+  \bibinfo {author} {\bibfnamefont {K.-W.}\ \bibnamefont {Yeh}}, \bibinfo
+  {author} {\bibfnamefont {T.-K.}\ \bibnamefont {Chen}}, \bibinfo {author}
+  {\bibfnamefont {T.-W.}\ \bibnamefont {Huang}}, \bibinfo {author}
+  {\bibfnamefont {P.~M.}\ \bibnamefont {Wu}}, \bibinfo {author} {\bibfnamefont
+  {Y.-C.}\ \bibnamefont {Lee}}, \bibinfo {author} {\bibfnamefont {Y.-L.}\
+  \bibnamefont {Huang}}, \bibinfo {author} {\bibfnamefont {Y.-Y.}\ \bibnamefont
+  {Chu}}, \bibinfo {author} {\bibfnamefont {D.-C.}\ \bibnamefont {Yan}},\ and\
+  \bibinfo {author} {\bibfnamefont {M.-K.}\ \bibnamefont {Wu}},\ }\bibfield
+  {title} {\bibinfo {title} {Superconductivity in the {PbO}-type structure
+  $\alpha$-{FeSe}},\ }\href {https://doi.org/10.1073/pnas.0807325105}
+  {\bibfield  {journal} {\bibinfo  {journal} {Proceedings of the National
+  Academy of Sciences}\ }\textbf {\bibinfo {volume} {105}},\ \bibinfo {pages}
+  {14262} (\bibinfo {year} {2008})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Lee}(2018)}]{LeeReview}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.-H.}\ \bibnamefont
+  {Lee}},\ }\bibfield  {title} {\bibinfo {title} {Routes to high-temperature
+  superconductivity: A lesson from {FeSe/SrTiO$_3$}},\ }\href
+  {https://doi.org/10.1146/annurev-conmatphys-033117-053942} {\bibfield
+  {journal} {\bibinfo  {journal} {Annual Review of Condensed Matter Physics}\
+  }\textbf {\bibinfo {volume} {9}},\ \bibinfo {pages} {261} (\bibinfo {year}
+  {2018})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Coh}\ \emph {et~al.}(2016)\citenamefont {Coh},
+  \citenamefont {Lee}, \citenamefont {Louie},\ and\ \citenamefont
+  {Cohen}}]{CohHeterostructure}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Coh}}, \bibinfo {author} {\bibfnamefont {D.-H.}\ \bibnamefont {Lee}},
+  \bibinfo {author} {\bibfnamefont {S.~G.}\ \bibnamefont {Louie}},\ and\
+  \bibinfo {author} {\bibfnamefont {M.~L.}\ \bibnamefont {Cohen}},\ }\bibfield
+  {title} {\bibinfo {title} {Proposal for a bulk material based on a monolayer
+  {FeSe} on {SrTiO$_3$} high-temperature superconductor},\ }\href
+  {https://doi.org/10.1103/PhysRevB.93.245138} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {93}},\ \bibinfo
+  {pages} {245138} (\bibinfo {year} {2016})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Choi}\ \emph {et~al.}(2017)\citenamefont {Choi},
+  \citenamefont {Johnston}, \citenamefont {Jang}, \citenamefont {Koepernik},
+  \citenamefont {Nakatsukasa}, \citenamefont {Ok}, \citenamefont {Lee},
+  \citenamefont {Choi}, \citenamefont {Lee}, \citenamefont {Akbari},
+  \citenamefont {Semertzidis}, \citenamefont {Bang}, \citenamefont {Kim},\ and\
+  \citenamefont {Lee}}]{PhysRevLett.119.107003}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Choi}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Johnston}},
+  \bibinfo {author} {\bibfnamefont {W.-J.}\ \bibnamefont {Jang}}, \bibinfo
+  {author} {\bibfnamefont {K.}~\bibnamefont {Koepernik}}, \bibinfo {author}
+  {\bibfnamefont {K.}~\bibnamefont {Nakatsukasa}}, \bibinfo {author}
+  {\bibfnamefont {J.~M.}\ \bibnamefont {Ok}}, \bibinfo {author} {\bibfnamefont
+  {H.-J.}\ \bibnamefont {Lee}}, \bibinfo {author} {\bibfnamefont {H.~W.}\
+  \bibnamefont {Choi}}, \bibinfo {author} {\bibfnamefont {A.~T.}\ \bibnamefont
+  {Lee}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Akbari}},
+  \bibinfo {author} {\bibfnamefont {Y.~K.}\ \bibnamefont {Semertzidis}},
+  \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Bang}}, \bibinfo {author}
+  {\bibfnamefont {J.~S.}\ \bibnamefont {Kim}},\ and\ \bibinfo {author}
+  {\bibfnamefont {J.}~\bibnamefont {Lee}},\ }\bibfield  {title} {\bibinfo
+  {title} {Correlation of {Fe}-based superconductivity and electron-phonon
+  coupling in an {FeAs/Oxide} heterostructure},\ }\href
+  {https://doi.org/10.1103/PhysRevLett.119.107003} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {119}},\
+  \bibinfo {pages} {107003} (\bibinfo {year} {2017})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kreisel}\ \emph {et~al.}(2020)\citenamefont
+  {Kreisel}, \citenamefont {Hirschfeld},\ and\ \citenamefont
+  {Andersen}}]{Kreisel:2020ec}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Kreisel}}, \bibinfo {author} {\bibfnamefont {P.~J.}\ \bibnamefont
+  {Hirschfeld}},\ and\ \bibinfo {author} {\bibfnamefont {B.~M.}\ \bibnamefont
+  {Andersen}},\ }\bibfield  {title} {\bibinfo {title} {{On the Remarkable
+  Superconductivity of FeSe and Its Close Cousins}},\ }\href
+  {https://doi.org/https://doi.org/10.3390/sym12091402} {\bibfield  {journal}
+  {\bibinfo  {journal} {Symmetry}\ }\textbf {\bibinfo {volume} {12}},\ \bibinfo
+  {pages} {1402} (\bibinfo {year} {2020})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Richard}\ \emph {et~al.}(2011)\citenamefont
+  {Richard}, \citenamefont {Sato}, \citenamefont {Nakayama}, \citenamefont
+  {Takahashi},\ and\ \citenamefont {Ding}}]{Richard_2011}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Richard}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Sato}},
+  \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Nakayama}}, \bibinfo
+  {author} {\bibfnamefont {T.}~\bibnamefont {Takahashi}},\ and\ \bibinfo
+  {author} {\bibfnamefont {H.}~\bibnamefont {Ding}},\ }\bibfield  {title}
+  {\bibinfo {title} {Fe-based superconductors: an angle-resolved photoemission
+  spectroscopy perspective},\ }\href
+  {https://doi.org/10.1088/0034-4885/74/12/124512} {\bibfield  {journal}
+  {\bibinfo  {journal} {Reports on Progress in Physics}\ }\textbf {\bibinfo
+  {volume} {74}},\ \bibinfo {pages} {124512} (\bibinfo {year}
+  {2011})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {{van Roekeghem}}\ \emph {et~al.}(2016)\citenamefont
+  {{van Roekeghem}}, \citenamefont {Richard}, \citenamefont {Ding},\ and\
+  \citenamefont {Biermann}}]{VANROEKEGHEM2016140}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {{van
+  Roekeghem}}}, \bibinfo {author} {\bibfnamefont {P.}~\bibnamefont {Richard}},
+  \bibinfo {author} {\bibfnamefont {H.}~\bibnamefont {Ding}},\ and\ \bibinfo
+  {author} {\bibfnamefont {S.}~\bibnamefont {Biermann}},\ }\bibfield  {title}
+  {\bibinfo {title} {Spectral properties of transition metal pnictides and
+  chalcogenides: Angle-resolved photoemission spectroscopy and dynamical
+  mean-field theory},\ }\href
+  {https://doi.org/https://doi.org/10.1016/j.crhy.2015.11.003} {\bibfield
+  {journal} {\bibinfo  {journal} {Comptes Rendus Physique}\ }\textbf {\bibinfo
+  {volume} {17}},\ \bibinfo {pages} {140 } (\bibinfo {year}
+  {2016})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Miyata}\ \emph {et~al.}(2015)\citenamefont {Miyata},
+  \citenamefont {Nakayama}, \citenamefont {Sugawara}, \citenamefont {Sato},\
+  and\ \citenamefont {Takahashi}}]{Miyata:2015kb}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {Miyata}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Nakayama}},
+  \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Sugawara}}, \bibinfo
+  {author} {\bibfnamefont {T.}~\bibnamefont {Sato}},\ and\ \bibinfo {author}
+  {\bibfnamefont {T.}~\bibnamefont {Takahashi}},\ }\bibfield  {title} {\bibinfo
+  {title} {High-temperature superconductivity in potassium-coated multilayer
+  {FeSe} thin films},\ }\href {https://doi.org/10.1038/nmat4302} {\bibfield
+  {journal} {\bibinfo  {journal} {Nature Materials}\ }\textbf {\bibinfo
+  {volume} {14}},\ \bibinfo {pages} {775} (\bibinfo {year} {2015})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Mazin}\ \emph {et~al.}(2008)\citenamefont {Mazin},
+  \citenamefont {Singh}, \citenamefont {Johannes},\ and\ \citenamefont
+  {Du}}]{Mazin2008}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {I.~I.}\ \bibnamefont
+  {Mazin}}, \bibinfo {author} {\bibfnamefont {D.~J.}\ \bibnamefont {Singh}},
+  \bibinfo {author} {\bibfnamefont {M.~D.}\ \bibnamefont {Johannes}},\ and\
+  \bibinfo {author} {\bibfnamefont {M.~H.}\ \bibnamefont {Du}},\ }\bibfield
+  {title} {\bibinfo {title} {Unconventional superconductivity with a sign
+  reversal in the order parameter of {LaFeAsO$_{1-x}$F$_x$}},\ }\href
+  {https://doi.org/10.1103/PhysRevLett.101.057003} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {101}},\
+  \bibinfo {pages} {057003} (\bibinfo {year} {2008})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Bang}(2014)}]{Bang2014}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {Bang}},\ }\bibfield  {title} {\bibinfo {title} {A shadow gap in the
+  over-doped {(Ba$_{1-x}$K$_x$)Fe$_2$As$_2$} compound},\ }\href
+  {https://doi.org/10.1088/1367-2630/16/2/023029} {\bibfield  {journal}
+  {\bibinfo  {journal} {New Journal of Physics}\ }\textbf {\bibinfo {volume}
+  {16}},\ \bibinfo {pages} {023029} (\bibinfo {year} {2014})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Chen}\ \emph
+  {et~al.}(2015{\natexlab{a}})\citenamefont {Chen}, \citenamefont {Maiti},
+  \citenamefont {Linscheid},\ and\ \citenamefont {Hirschfeld}}]{Chen2015}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {X.}~\bibnamefont
+  {Chen}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Maiti}},
+  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Linscheid}},\ and\
+  \bibinfo {author} {\bibfnamefont {P.~J.}\ \bibnamefont {Hirschfeld}},\
+  }\bibfield  {title} {\bibinfo {title} {Electron pairing in the presence of
+  incipient bands in iron-based superconductors},\ }\href
+  {https://doi.org/10.1103/PhysRevB.92.224514} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {92}},\ \bibinfo
+  {pages} {224514} (\bibinfo {year} {2015}{\natexlab{a}})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Linscheid}\ \emph {et~al.}(2016)\citenamefont
+  {Linscheid}, \citenamefont {Maiti}, \citenamefont {Wang}, \citenamefont
+  {Johnston},\ and\ \citenamefont {Hirschfeld}}]{Linscheid2016}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Linscheid}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Maiti}},
+  \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Wang}}, \bibinfo {author}
+  {\bibfnamefont {S.}~\bibnamefont {Johnston}},\ and\ \bibinfo {author}
+  {\bibfnamefont {P.~J.}\ \bibnamefont {Hirschfeld}},\ }\bibfield  {title}
+  {\bibinfo {title} {High {$T_c$} via spin fluctuations from incipient bands:
+  Application to monolayers and intercalates of {FeSe}},\ }\href
+  {https://doi.org/10.1103/PhysRevLett.117.077003} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {117}},\
+  \bibinfo {pages} {077003} (\bibinfo {year} {2016})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Mishra}\ \emph {et~al.}(2016)\citenamefont {Mishra},
+  \citenamefont {Scalapino},\ and\ \citenamefont {Maier}}]{Mishra2016}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {V.}~\bibnamefont
+  {Mishra}}, \bibinfo {author} {\bibfnamefont {D.~J.}\ \bibnamefont
+  {Scalapino}},\ and\ \bibinfo {author} {\bibfnamefont {T.~A.}\ \bibnamefont
+  {Maier}},\ }\bibfield  {title} {\bibinfo {title} {s$\pm$ pairing near a
+  lifshitz transition},\ }\href {https://doi.org/10.1038/srep32078} {\bibfield
+  {journal} {\bibinfo  {journal} {Scientific Reports}\ }\textbf {\bibinfo
+  {volume} {6}},\ \bibinfo {pages} {32078} (\bibinfo {year}
+  {2016})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Pelliciari}\ \emph {et~al.}(2020)\citenamefont
+  {Pelliciari}, \citenamefont {Karakuzu}, \citenamefont {Song}, \citenamefont
+  {Arpaia}, \citenamefont {Nag}, \citenamefont {Rossi}, \citenamefont {Li},
+  \citenamefont {Yu}, \citenamefont {Chen}, \citenamefont {Peng}, \citenamefont
+  {Garcia-Fernandez}, \citenamefont {Walters}, \citenamefont {Wang},
+  \citenamefont {Zhao}, \citenamefont {Ghiringhelli}, \citenamefont {Feng},
+  \citenamefont {Maier}, \citenamefont {Zhou}, \citenamefont {Johnston},\ and\
+  \citenamefont {Comin}}]{Pelliciari:2020tu}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Pelliciari}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Karakuzu}}, \bibinfo {author} {\bibfnamefont {Q.}~\bibnamefont {Song}},
+  \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Arpaia}}, \bibinfo
+  {author} {\bibfnamefont {A.}~\bibnamefont {Nag}}, \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {Rossi}}, \bibinfo {author} {\bibfnamefont
+  {J.}~\bibnamefont {Li}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont
+  {Yu}}, \bibinfo {author} {\bibfnamefont {X.}~\bibnamefont {Chen}}, \bibinfo
+  {author} {\bibfnamefont {R.}~\bibnamefont {Peng}}, \bibinfo {author}
+  {\bibfnamefont {M.}~\bibnamefont {Garcia-Fernandez}}, \bibinfo {author}
+  {\bibfnamefont {A.~C.}\ \bibnamefont {Walters}}, \bibinfo {author}
+  {\bibfnamefont {Q.}~\bibnamefont {Wang}}, \bibinfo {author} {\bibfnamefont
+  {J.}~\bibnamefont {Zhao}}, \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Ghiringhelli}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Feng}},
+  \bibinfo {author} {\bibfnamefont {T.~A.}\ \bibnamefont {Maier}}, \bibinfo
+  {author} {\bibfnamefont {K.~J.}\ \bibnamefont {Zhou}}, \bibinfo {author}
+  {\bibfnamefont {S.}~\bibnamefont {Johnston}},\ and\ \bibinfo {author}
+  {\bibfnamefont {R.}~\bibnamefont {Comin}},\ }\bibfield  {title} {\bibinfo
+  {title} {{Evolution of spin excitations from bulk to monolayer FeSe}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {arXiv}\ }
+  (\bibinfo {year} {2020})},\ \Eprint {https://arxiv.org/abs/2008.09618v1}
+  {2008.09618v1} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Maier}\ and\ \citenamefont
+  {Scalapino}(2011)}]{Maier:2011gp}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.~A.}\ \bibnamefont
+  {Maier}}\ and\ \bibinfo {author} {\bibfnamefont {D.~J.}\ \bibnamefont
+  {Scalapino}},\ }\bibfield  {title} {\bibinfo {title} {{Pair structure and the
+  pairing interaction in a bilayer Hubbard model for unconventional
+  superconductivity}},\ }\href {https://doi.org/10.1103/PhysRevB.84.180513}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo
+  {volume} {84}},\ \bibinfo {pages} {180513} (\bibinfo {year}
+  {2011})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Lee}\ \emph {et~al.}(2014)\citenamefont {Lee},
+  \citenamefont {Schmitt}, \citenamefont {Moore}, \citenamefont {Johnston},
+  \citenamefont {Cui}, \citenamefont {Li}, \citenamefont {Yi}, \citenamefont
+  {Liu}, \citenamefont {Hashimoto}, \citenamefont {Zhang}, \citenamefont {Lu},
+  \citenamefont {Devereaux}, \citenamefont {Lee},\ and\ \citenamefont
+  {Shen}}]{Lee2014}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.~J.}\ \bibnamefont
+  {Lee}}, \bibinfo {author} {\bibfnamefont {F.~T.}\ \bibnamefont {Schmitt}},
+  \bibinfo {author} {\bibfnamefont {R.~G.}\ \bibnamefont {Moore}}, \bibinfo
+  {author} {\bibfnamefont {S.}~\bibnamefont {Johnston}}, \bibinfo {author}
+  {\bibfnamefont {Y.~T.}\ \bibnamefont {Cui}}, \bibinfo {author} {\bibfnamefont
+  {W.}~\bibnamefont {Li}}, \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Yi}}, \bibinfo {author} {\bibfnamefont {Z.~K.}\ \bibnamefont {Liu}},
+  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Hashimoto}}, \bibinfo
+  {author} {\bibfnamefont {Y.}~\bibnamefont {Zhang}}, \bibinfo {author}
+  {\bibfnamefont {D.~H.}\ \bibnamefont {Lu}}, \bibinfo {author} {\bibfnamefont
+  {T.~P.}\ \bibnamefont {Devereaux}}, \bibinfo {author} {\bibfnamefont {D.~H.}\
+  \bibnamefont {Lee}},\ and\ \bibinfo {author} {\bibfnamefont {Z.~X.}\
+  \bibnamefont {Shen}},\ }\bibfield  {title} {\bibinfo {title} {Interfacial
+  mode coupling as the origin of the enhancement of {T$_c$} in {FeSe} films on
+  {SrTiO$_3$}},\ }\href {https://doi.org/10.1038/nature13894} {\bibfield
+  {journal} {\bibinfo  {journal} {Nature}\ }\textbf {\bibinfo {volume} {515}},\
+  \bibinfo {pages} {245} (\bibinfo {year} {2014})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kuli{\'c}}\ and\ \citenamefont
+  {Zeyher}(1994)}]{PhysRevB.49.4395}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~L.}\ \bibnamefont
+  {Kuli{\'c}}}\ and\ \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont
+  {Zeyher}},\ }\bibfield  {title} {\bibinfo {title} {Influence of strong
+  electron correlations on the electron-phonon coupling in
+  {high-${\mathit{T}}_{\mathit{c}}$} oxides},\ }\href
+  {https://doi.org/10.1103/PhysRevB.49.4395} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {49}},\ \bibinfo
+  {pages} {4395} (\bibinfo {year} {1994})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Rademaker}\ \emph {et~al.}(2016)\citenamefont
+  {Rademaker}, \citenamefont {Wang}, \citenamefont {Berlijn},\ and\
+  \citenamefont {Johnston}}]{Rademaker2016}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {L.}~\bibnamefont
+  {Rademaker}}, \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Wang}},
+  \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Berlijn}},\ and\ \bibinfo
+  {author} {\bibfnamefont {S.}~\bibnamefont {Johnston}},\ }\bibfield  {title}
+  {\bibinfo {title} {Enhanced superconductivity due to forward scattering in
+  {FeSe} thin films on {SrTiO}$_3$ substrates},\ }\href
+  {https://doi.org/10.1088/1367-2630/18/2/022001} {\bibfield  {journal}
+  {\bibinfo  {journal} {New Journal of Physics}\ }\textbf {\bibinfo {volume}
+  {18}},\ \bibinfo {pages} {022001} (\bibinfo {year} {2016})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Wang}\ \emph
+  {et~al.}(2016{\natexlab{a}})\citenamefont {Wang}, \citenamefont
+  {Nakatsukasa}, \citenamefont {Rademaker}, \citenamefont {Berlijn},\ and\
+  \citenamefont {Johnston}}]{WangSUST}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {Wang}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Nakatsukasa}},
+  \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Rademaker}}, \bibinfo
+  {author} {\bibfnamefont {T.}~\bibnamefont {Berlijn}},\ and\ \bibinfo {author}
+  {\bibfnamefont {S.}~\bibnamefont {Johnston}},\ }\bibfield  {title} {\bibinfo
+  {title} {Aspects of electron-phonon interactions with strong forward
+  scattering in {FeSe} thin films on {SrTiO$_3$} substrates},\ }\href
+  {https://doi.org/10.1088/0953-2048/29/5/054009} {\bibfield  {journal}
+  {\bibinfo  {journal} {Superconductor Science and Technology}\ }\textbf
+  {\bibinfo {volume} {29}},\ \bibinfo {pages} {054009} (\bibinfo {year}
+  {2016}{\natexlab{a}})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kuli{\'{c}}}\ and\ \citenamefont
+  {Dolgov}(2017)}]{Kulic2017}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.~L.}\ \bibnamefont
+  {Kuli{\'{c}}}}\ and\ \bibinfo {author} {\bibfnamefont {O.~V.}\ \bibnamefont
+  {Dolgov}},\ }\bibfield  {title} {\bibinfo {title} {The electron-phonon
+  interaction with forward scattering peak is dominant in high {$T_c$}
+  superconductors of {FeSe} films on {SrTiO$_3$} ({TiO$_2$})},\ }\href
+  {https://doi.org/10.1088/1367-2630/19/1/013020} {\bibfield  {journal}
+  {\bibinfo  {journal} {New Journal of Physics}\ }\textbf {\bibinfo {volume}
+  {19}},\ \bibinfo {pages} {013020} (\bibinfo {year} {2017})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Wang}\ \emph
+  {et~al.}(2016{\natexlab{b}})\citenamefont {Wang}, \citenamefont {Linscheid},
+  \citenamefont {Berlijn},\ and\ \citenamefont {Johnston}}]{Wang2016}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {Wang}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Linscheid}},
+  \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Berlijn}},\ and\ \bibinfo
+  {author} {\bibfnamefont {S.}~\bibnamefont {Johnston}},\ }\bibfield  {title}
+  {\bibinfo {title} {Ab initio study of cross-interface electron-phonon
+  couplings in {FeSe} thin films on {SrTiO$_3$} and {BaTiO$_3$}},\ }\href
+  {https://doi.org/10.1103/PhysRevB.93.134513} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {93}},\ \bibinfo
+  {pages} {134513} (\bibinfo {year} {2016}{\natexlab{b}})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Wang}\ \emph {et~al.}(2017)\citenamefont {Wang},
+  \citenamefont {Rademaker}, \citenamefont {Dagotto},\ and\ \citenamefont
+  {Johnston}}]{Wang2017}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {Wang}}, \bibinfo {author} {\bibfnamefont {L.}~\bibnamefont {Rademaker}},
+  \bibinfo {author} {\bibfnamefont {E.}~\bibnamefont {Dagotto}},\ and\ \bibinfo
+  {author} {\bibfnamefont {S.}~\bibnamefont {Johnston}},\ }\bibfield  {title}
+  {\bibinfo {title} {Phonon linewidth due to electron-phonon interactions with
+  strong forward scattering in {FeSe} thin films on oxide substrates},\ }\href
+  {https://doi.org/10.1103/PhysRevB.96.054515} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {96}},\ \bibinfo
+  {pages} {054515} (\bibinfo {year} {2017})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Zhang}\ \emph {et~al.}(2018)\citenamefont {Zhang},
+  \citenamefont {Guan}, \citenamefont {Wang}, \citenamefont {Berlijn},
+  \citenamefont {Johnston}, \citenamefont {Jia}, \citenamefont {Liu},
+  \citenamefont {Zhu}, \citenamefont {An}, \citenamefont {Xue}, \citenamefont
+  {Cao}, \citenamefont {Yang}, \citenamefont {Wang}, \citenamefont {Zhang},
+  \citenamefont {Plummer}, \citenamefont {Zhu},\ and\ \citenamefont
+  {Guo}}]{Zhang2018}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {S.}~\bibnamefont
+  {Zhang}}, \bibinfo {author} {\bibfnamefont {J.}~\bibnamefont {Guan}},
+  \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Wang}}, \bibinfo {author}
+  {\bibfnamefont {T.}~\bibnamefont {Berlijn}}, \bibinfo {author} {\bibfnamefont
+  {S.}~\bibnamefont {Johnston}}, \bibinfo {author} {\bibfnamefont
+  {X.}~\bibnamefont {Jia}}, \bibinfo {author} {\bibfnamefont {B.}~\bibnamefont
+  {Liu}}, \bibinfo {author} {\bibfnamefont {Q.}~\bibnamefont {Zhu}}, \bibinfo
+  {author} {\bibfnamefont {Q.}~\bibnamefont {An}}, \bibinfo {author}
+  {\bibfnamefont {S.}~\bibnamefont {Xue}}, \bibinfo {author} {\bibfnamefont
+  {Y.}~\bibnamefont {Cao}}, \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {Yang}}, \bibinfo {author} {\bibfnamefont {W.}~\bibnamefont {Wang}}, \bibinfo
+  {author} {\bibfnamefont {J.}~\bibnamefont {Zhang}}, \bibinfo {author}
+  {\bibfnamefont {E.~W.}\ \bibnamefont {Plummer}}, \bibinfo {author}
+  {\bibfnamefont {X.}~\bibnamefont {Zhu}},\ and\ \bibinfo {author}
+  {\bibfnamefont {J.}~\bibnamefont {Guo}},\ }\bibfield  {title} {\bibinfo
+  {title} {Lattice dynamics of ultrathin {FeSe} films on {SrTiO$_3$}},\ }\href
+  {https://doi.org/10.1103/PhysRevB.97.035408} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {97}},\ \bibinfo
+  {pages} {035408} (\bibinfo {year} {2018})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Zhou}\ and\ \citenamefont
+  {Millis}(2016)}]{ZhouMillis1}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {Zhou}}\ and\ \bibinfo {author} {\bibfnamefont {A.~J.}\ \bibnamefont
+  {Millis}},\ }\bibfield  {title} {\bibinfo {title} {Charge transfer and
+  electron-phonon coupling in monolayer {FeSe} on {Nb}-doped {SrTiO$_3$}},\
+  }\href {https://doi.org/10.1103/PhysRevB.93.224506} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {93}},\
+  \bibinfo {pages} {224506} (\bibinfo {year} {2016})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Zhou}\ and\ \citenamefont
+  {Millis}(2017)}]{ZhouMillis2}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {Zhou}}\ and\ \bibinfo {author} {\bibfnamefont {A.~J.}\ \bibnamefont
+  {Millis}},\ }\bibfield  {title} {\bibinfo {title} {Dipolar phonons and
+  electronic screening in monolayer fese on {SrTiO$_3$}},\ }\href
+  {https://doi.org/10.1103/PhysRevB.96.054516} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {96}},\ \bibinfo
+  {pages} {054516} (\bibinfo {year} {2017})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Li}\ \emph {et~al.}(2019)\citenamefont {Li},
+  \citenamefont {Devereaux},\ and\ \citenamefont {Lee}}]{XiXiang2019}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Z.-X.}\ \bibnamefont
+  {Li}}, \bibinfo {author} {\bibfnamefont {T.~P.}\ \bibnamefont {Devereaux}},\
+  and\ \bibinfo {author} {\bibfnamefont {D.-H.}\ \bibnamefont {Lee}},\
+  }\bibfield  {title} {\bibinfo {title} {Electronic and phononic properties of
+  a two-dimensional electron gas coupled to dipolar phonons via
+  small-momentum-transfer scattering},\ }\href
+  {https://doi.org/10.1103/PhysRevB.100.241101} {\bibfield  {journal} {\bibinfo
+   {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {100}},\ \bibinfo
+  {pages} {241101} (\bibinfo {year} {2019})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Liu}\ \emph {et~al.}(2020)\citenamefont {Liu},
+  \citenamefont {Yang}, \citenamefont {Pan},\ and\ \citenamefont
+  {Wang}}]{LiuPreprint}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.-Z.}\ \bibnamefont
+  {Liu}}, \bibinfo {author} {\bibfnamefont {Z.-K.}\ \bibnamefont {Yang}},
+  \bibinfo {author} {\bibfnamefont {X.-Y.}\ \bibnamefont {Pan}},\ and\ \bibinfo
+  {author} {\bibfnamefont {J.-R.}\ \bibnamefont {Wang}},\ }\href@noop {}
+  {\bibinfo {title} {Towards exact solutions of superconducting {$T_c$} induced
+  by electron-phonon interaction}} (\bibinfo {year} {2020}),\ \Eprint
+  {https://arxiv.org/abs/1911.05528} {arXiv:1911.05528 [cond-mat.supr-con]}
+  \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Li}\ and\ \citenamefont
+  {Sawatzky}(2018)}]{PhysRevLett.120.237001}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {Li}}\ and\ \bibinfo {author} {\bibfnamefont {G.~A.}\ \bibnamefont
+  {Sawatzky}},\ }\bibfield  {title} {\bibinfo {title} {Electron phonon coupling
+  versus photoelectron energy loss at the origin of replica bands in
+  photoemission of {FeSe} on {SrTiO$_3$}},\ }\href
+  {https://doi.org/10.1103/PhysRevLett.120.237001} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {120}},\
+  \bibinfo {pages} {237001} (\bibinfo {year} {2018})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Li}\ \emph {et~al.}(2016)\citenamefont {Li},
+  \citenamefont {Wang}, \citenamefont {Yao},\ and\ \citenamefont
+  {Lee}}]{LI2016925}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Z.-X.}\ \bibnamefont
+  {Li}}, \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {Wang}}, \bibinfo
+  {author} {\bibfnamefont {H.}~\bibnamefont {Yao}},\ and\ \bibinfo {author}
+  {\bibfnamefont {D.-H.}\ \bibnamefont {Lee}},\ }\bibfield  {title} {\bibinfo
+  {title} {{What makes the $T_c$ of monolayer FeSe on SrTiO$_3$ so high: a
+  sign-problem-free quantum Monte Carlo study}},\ }\href
+  {https://doi.org/10.1007/s11434-016-1087-x} {\bibfield  {journal} {\bibinfo
+  {journal} {Science Bulletin}\ }\textbf {\bibinfo {volume} {61}},\ \bibinfo
+  {pages} {925 } (\bibinfo {year} {2016})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Bang}(2019)}]{Bang2019}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont
+  {Bang}},\ }\bibfield  {title} {\bibinfo {title} {Phonon boost effect on the
+  {$S^\pm$}-wave superconductor with incipient band},\ }\href
+  {https://doi.org/10.1038/s41598-019-40536-3} {\bibfield  {journal} {\bibinfo
+  {journal} {Scientific Reports}\ }\textbf {\bibinfo {volume} {9}},\ \bibinfo
+  {pages} {3907} (\bibinfo {year} {2019})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Varelogiannis}(2007)}]{VARELOGIANNIS20071125}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {G.}~\bibnamefont
+  {Varelogiannis}},\ }\bibfield  {title} {\bibinfo {title} {Small-q
+  electron--phonon interaction and the phase diagram of the cuprates},\ }\href
+  {https://doi.org/https://doi.org/10.1016/j.physc.2007.03.236} {\bibfield
+  {journal} {\bibinfo  {journal} {Physica C: Superconductivity}\ }\textbf
+  {\bibinfo {volume} {460-462}},\ \bibinfo {pages} {1125 } (\bibinfo {year}
+  {2007})},\ \bibinfo {note} {proceedings of the 8th International Conference
+  on Materials and Mechanisms of Superconductivity and High Temperature
+  Superconductors}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Song}\ \emph {et~al.}(2019)\citenamefont {Song},
+  \citenamefont {Yu}, \citenamefont {Lou}, \citenamefont {Xie}, \citenamefont
+  {Xu}, \citenamefont {Wen}, \citenamefont {Yao}, \citenamefont {Zhang},
+  \citenamefont {Zhu}, \citenamefont {Guo}, \citenamefont {Peng},\ and\
+  \citenamefont {Feng}}]{Song:2019cg}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Q.}~\bibnamefont
+  {Song}}, \bibinfo {author} {\bibfnamefont {T.~L.}\ \bibnamefont {Yu}},
+  \bibinfo {author} {\bibfnamefont {X.}~\bibnamefont {Lou}}, \bibinfo {author}
+  {\bibfnamefont {B.~P.}\ \bibnamefont {Xie}}, \bibinfo {author} {\bibfnamefont
+  {H.~C.}\ \bibnamefont {Xu}}, \bibinfo {author} {\bibfnamefont {C.~H.~P.}\
+  \bibnamefont {Wen}}, \bibinfo {author} {\bibfnamefont {Q.}~\bibnamefont
+  {Yao}}, \bibinfo {author} {\bibfnamefont {S.~Y.}\ \bibnamefont {Zhang}},
+  \bibinfo {author} {\bibfnamefont {X.~T.}\ \bibnamefont {Zhu}}, \bibinfo
+  {author} {\bibfnamefont {J.~D.}\ \bibnamefont {Guo}}, \bibinfo {author}
+  {\bibfnamefont {R.}~\bibnamefont {Peng}},\ and\ \bibinfo {author}
+  {\bibfnamefont {D.~L.}\ \bibnamefont {Feng}},\ }\bibfield  {title} {\bibinfo
+  {title} {Evidence of cooperative effect on the enhanced superconducting
+  transition temperature at the \protect{FeSe/SrTiO$_3$} interface},\ }\href
+  {https://doi.org/10.1038/s41467-019-08560-z} {\bibfield  {journal} {\bibinfo
+  {journal} {Nature Communications}\ }\textbf {\bibinfo {volume} {10}},\
+  \bibinfo {pages} {758} (\bibinfo {year} {2019})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Shigekawa}\ \emph {et~al.}(2019)\citenamefont
+  {Shigekawa}, \citenamefont {Nakayama}, \citenamefont {Kuno}, \citenamefont
+  {Phan}, \citenamefont {Owada}, \citenamefont {Sugawara}, \citenamefont
+  {Takahashi},\ and\ \citenamefont {Sato}}]{Shigekawa24470}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Shigekawa}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Nakayama}},
+  \bibinfo {author} {\bibfnamefont {M.}~\bibnamefont {Kuno}}, \bibinfo {author}
+  {\bibfnamefont {G.~N.}\ \bibnamefont {Phan}}, \bibinfo {author}
+  {\bibfnamefont {K.}~\bibnamefont {Owada}}, \bibinfo {author} {\bibfnamefont
+  {K.}~\bibnamefont {Sugawara}}, \bibinfo {author} {\bibfnamefont
+  {T.}~\bibnamefont {Takahashi}},\ and\ \bibinfo {author} {\bibfnamefont
+  {T.}~\bibnamefont {Sato}},\ }\bibfield  {title} {\bibinfo {title} {Dichotomy
+  of superconductivity between monolayer {FeS} and {FeSe}},\ }\href
+  {https://doi.org/10.1073/pnas.1912836116} {\bibfield  {journal} {\bibinfo
+  {journal} {Proceedings of the National Academy of Sciences}\ }\textbf
+  {\bibinfo {volume} {116}},\ \bibinfo {pages} {24470} (\bibinfo {year}
+  {2019})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Schrodi}\ \emph
+  {et~al.}(2020{\natexlab{a}})\citenamefont {Schrodi}, \citenamefont {Aperis},\
+  and\ \citenamefont {Oppeneer}}]{Schrodi:2020bq}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {Schrodi}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Aperis}},\
+  and\ \bibinfo {author} {\bibfnamefont {P.~M.}\ \bibnamefont {Oppeneer}},\
+  }\bibfield  {title} {\bibinfo {title} {Multichannel superconductivity of
+  monolayer \protect{FeSe} on \protect{${\mathrm{SrTiO}}_{3}$}: Interplay of
+  spin fluctuations and electron-phonon interaction},\ }\href
+  {https://doi.org/10.1103/PhysRevB.102.180501} {\bibfield  {journal} {\bibinfo
+   {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {102}},\ \bibinfo
+  {pages} {180501} (\bibinfo {year} {2020}{\natexlab{a}})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Kuroki}\ \emph {et~al.}(2002)\citenamefont {Kuroki},
+  \citenamefont {Kimura},\ and\ \citenamefont {Arita}}]{PhysRevB.66.184508}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Kuroki}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Kimura}},\
+  and\ \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Arita}},\ }\bibfield
+   {title} {\bibinfo {title} {High-temperature superconductivity in dimer array
+  systems},\ }\href {https://doi.org/10.1103/PhysRevB.66.184508} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume}
+  {66}},\ \bibinfo {pages} {184508} (\bibinfo {year} {2002})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Kuroki}\ \emph {et~al.}(2005)\citenamefont {Kuroki},
+  \citenamefont {Higashida},\ and\ \citenamefont {Arita}}]{PhysRevB.72.212509}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Kuroki}}, \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Higashida}},\
+  and\ \bibinfo {author} {\bibfnamefont {R.}~\bibnamefont {Arita}},\ }\bibfield
+   {title} {\bibinfo {title} {High-${T}_{c}$ superconductivity due to
+  coexisting wide and narrow bands: A fluctuation exchange study of the hubbard
+  ladder as a test case},\ }\href {https://doi.org/10.1103/PhysRevB.72.212509}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo
+  {volume} {72}},\ \bibinfo {pages} {212509} (\bibinfo {year}
+  {2005})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Bouadim}\ \emph {et~al.}(2008)\citenamefont
+  {Bouadim}, \citenamefont {Batrouni}, \citenamefont {H\'ebert},\ and\
+  \citenamefont {Scalettar}}]{PhysRevB.77.144527}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Bouadim}}, \bibinfo {author} {\bibfnamefont {G.~G.}\ \bibnamefont
+  {Batrouni}}, \bibinfo {author} {\bibfnamefont {F.}~\bibnamefont {H\'ebert}},\
+  and\ \bibinfo {author} {\bibfnamefont {R.~T.}\ \bibnamefont {Scalettar}},\
+  }\bibfield  {title} {\bibinfo {title} {Magnetic and transport properties of a
+  coupled hubbard bilayer with electron and hole doping},\ }\href
+  {https://doi.org/10.1103/PhysRevB.77.144527} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {77}},\ \bibinfo
+  {pages} {144527} (\bibinfo {year} {2008})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Matsumoto}\ \emph {et~al.}(2020)\citenamefont
+  {Matsumoto}, \citenamefont {Ogura},\ and\ \citenamefont
+  {Kuroki}}]{Matsumoto2020}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {K.}~\bibnamefont
+  {Matsumoto}}, \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont {Ogura}},\
+  and\ \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Kuroki}},\
+  }\bibfield  {title} {\bibinfo {title} {Strongly enhanced superconductivity
+  due to finite energy spin fluctuations induced by an incipient band: A {FLEX}
+  study on the bilayer {Hubbard} model with vertical and diagonal interlayer
+  hoppings},\ }\href {https://doi.org/10.7566/JPSJ.89.044709} {\bibfield
+  {journal} {\bibinfo  {journal} {Journal of the Physical Society of Japan}\
+  }\textbf {\bibinfo {volume} {89}},\ \bibinfo {pages} {044709} (\bibinfo
+  {year} {2020})},\ \Eprint
+  {https://arxiv.org/abs/https://doi.org/10.7566/JPSJ.89.044709}
+  {https://doi.org/10.7566/JPSJ.89.044709} \BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kato}\ and\ \citenamefont
+  {Kuroki}(2020)}]{PhysRevResearch.2.023156}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Kato}}\ and\ \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Kuroki}},\
+  }\bibfield  {title} {\bibinfo {title} {Many-variable variational monte carlo
+  study of superconductivity in two-band hubbard models with an incipient
+  band},\ }\href {https://doi.org/10.1103/PhysRevResearch.2.023156} {\bibfield
+  {journal} {\bibinfo  {journal} {Phys. Rev. Research}\ }\textbf {\bibinfo
+  {volume} {2}},\ \bibinfo {pages} {023156} (\bibinfo {year}
+  {2020})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Maier}\ \emph {et~al.}(2019)\citenamefont {Maier},
+  \citenamefont {Mishra}, \citenamefont {Balduzzi},\ and\ \citenamefont
+  {Scalapino}}]{PhysRevB.99.140504}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {T.~A.}\ \bibnamefont
+  {Maier}}, \bibinfo {author} {\bibfnamefont {V.}~\bibnamefont {Mishra}},
+  \bibinfo {author} {\bibfnamefont {G.}~\bibnamefont {Balduzzi}},\ and\
+  \bibinfo {author} {\bibfnamefont {D.~J.}\ \bibnamefont {Scalapino}},\
+  }\bibfield  {title} {\bibinfo {title} {Effective pairing interaction in a
+  system with an incipient band},\ }\href
+  {https://doi.org/10.1103/PhysRevB.99.140504} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {99}},\ \bibinfo
+  {pages} {140504} (\bibinfo {year} {2019})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Bickers}\ \emph {et~al.}(1989)\citenamefont
+  {Bickers}, \citenamefont {Scalapino},\ and\ \citenamefont
+  {White}}]{Bickers:1989hu}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.~E.}\ \bibnamefont
+  {Bickers}}, \bibinfo {author} {\bibfnamefont {D.~J.}\ \bibnamefont
+  {Scalapino}},\ and\ \bibinfo {author} {\bibfnamefont {S.~R.}\ \bibnamefont
+  {White}},\ }\bibfield  {title} {\bibinfo {title} {{Conserving Approximations
+  for Strongly Correlated Electron Systems: Bethe-Salpeter Equation and
+  Dynamics for the Two-Dimensional Hubbard Model}},\ }\href
+  {https://doi.org/10.1103/PhysRevLett.62.961} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {62}},\ \bibinfo
+  {pages} {961} (\bibinfo {year} {1989})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Nocera}\ \emph {et~al.}(2018)\citenamefont {Nocera},
+  \citenamefont {Wang}, \citenamefont {Patel}, \citenamefont {Alvarez},
+  \citenamefont {Maier}, \citenamefont {Dagotto},\ and\ \citenamefont
+  {Johnston}}]{Nocera2018}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {A.}~\bibnamefont
+  {Nocera}}, \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Wang}},
+  \bibinfo {author} {\bibfnamefont {N.~D.}\ \bibnamefont {Patel}}, \bibinfo
+  {author} {\bibfnamefont {G.}~\bibnamefont {Alvarez}}, \bibinfo {author}
+  {\bibfnamefont {T.~A.}\ \bibnamefont {Maier}}, \bibinfo {author}
+  {\bibfnamefont {E.}~\bibnamefont {Dagotto}},\ and\ \bibinfo {author}
+  {\bibfnamefont {S.}~\bibnamefont {Johnston}},\ }\bibfield  {title} {\bibinfo
+  {title} {Doping evolution of charge and spin excitations in two-leg {Hubbard}
+  ladders: Comparing {DMRG} and {FLEX} results},\ }\href
+  {https://doi.org/10.1103/PhysRevB.97.195156} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {97}},\ \bibinfo
+  {pages} {195156} (\bibinfo {year} {2018})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Dee}\ \emph {et~al.}(2019)\citenamefont {Dee},
+  \citenamefont {Nakatsukasa}, \citenamefont {Wang},\ and\ \citenamefont
+  {Johnston}}]{DeePRB2019}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.~M.}\ \bibnamefont
+  {Dee}}, \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Nakatsukasa}},
+  \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Wang}},\ and\ \bibinfo
+  {author} {\bibfnamefont {S.}~\bibnamefont {Johnston}},\ }\bibfield  {title}
+  {\bibinfo {title} {Temperature-filling phase diagram of the two-dimensional
+  holstein model in the thermodynamic limit by self-consistent migdal
+  approximation},\ }\href {https://doi.org/10.1103/PhysRevB.99.024514}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo
+  {volume} {99}},\ \bibinfo {pages} {024514} (\bibinfo {year}
+  {2019})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Schrodi}\ \emph
+  {et~al.}(2020{\natexlab{b}})\citenamefont {Schrodi}, \citenamefont {Aperis},\
+  and\ \citenamefont {Oppeneer}}]{Schrodi:2020bz}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {F.}~\bibnamefont
+  {Schrodi}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Aperis}},\
+  and\ \bibinfo {author} {\bibfnamefont {P.~M.}\ \bibnamefont {Oppeneer}},\
+  }\bibfield  {title} {\bibinfo {title} {Eliashberg theory for spin fluctuation
+  mediated superconductivity: Application to bulk and monolayer {FeSe}},\
+  }\href {https://doi.org/10.1103/PhysRevB.102.014502} {\bibfield  {journal}
+  {\bibinfo  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {102}},\
+  \bibinfo {pages} {014502} (\bibinfo {year} {2020}{\natexlab{b}})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Schmalian}(1998)}]{Schmalian1998}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {J.}~\bibnamefont
+  {Schmalian}},\ }\bibfield  {title} {\bibinfo {title} {Pairing due to spin
+  fluctuations in layered organic superconductors},\ }\href
+  {https://doi.org/10.1103/PhysRevLett.81.4232} {\bibfield  {journal} {\bibinfo
+   {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {81}},\ \bibinfo
+  {pages} {4232} (\bibinfo {year} {1998})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Kontani}\ and\ \citenamefont
+  {Ueda}(1998)}]{Kontani1998}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Kontani}}\ and\ \bibinfo {author} {\bibfnamefont {K.}~\bibnamefont {Ueda}},\
+  }\bibfield  {title} {\bibinfo {title} {Electronic properties of the
+  trellis-lattice hubbard model: Pseudogap and superconductivity},\ }\href
+  {https://doi.org/10.1103/PhysRevLett.80.5619} {\bibfield  {journal} {\bibinfo
+   {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {80}},\ \bibinfo
+  {pages} {5619} (\bibinfo {year} {1998})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Bickers}\ and\ \citenamefont
+  {Scalapino}(1989)}]{Bickers1989}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {N.}~\bibnamefont
+  {Bickers}}\ and\ \bibinfo {author} {\bibfnamefont {D.}~\bibnamefont
+  {Scalapino}},\ }\bibfield  {title} {\bibinfo {title} {{Conserving
+  approximations for strongly fluctuating electron systems. I. Formalism and
+  calculational approach}},\ }\href
+  {https://doi.org/https://doi.org/10.1016/0003-4916(89)90359-X} {\bibfield
+  {journal} {\bibinfo  {journal} {Annals of Physics}\ }\textbf {\bibinfo
+  {volume} {193}},\ \bibinfo {pages} {206 } (\bibinfo {year}
+  {1989})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Chen}\ \emph
+  {et~al.}(2015{\natexlab{b}})\citenamefont {Chen}, \citenamefont {Maiti},
+  \citenamefont {Linscheid},\ and\ \citenamefont {Hirschfeld}}]{Chen:2015dw}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {X.}~\bibnamefont
+  {Chen}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Maiti}},
+  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Linscheid}},\ and\
+  \bibinfo {author} {\bibfnamefont {P.~J.}\ \bibnamefont {Hirschfeld}},\
+  }\bibfield  {title} {\bibinfo {title} {{Electron pairing in the presence of
+  incipient bands in iron-based superconductors}},\ }\href
+  {https://doi.org/10.1103/PhysRevB.92.224514} {\bibfield  {journal} {\bibinfo
+  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo {volume} {92}},\ \bibinfo
+  {pages} {224514} (\bibinfo {year} {2015}{\natexlab{b}})}\BibitemShut
+  {NoStop}%
+\bibitem [{\citenamefont {Imada}\ \emph {et~al.}(1998)\citenamefont {Imada},
+  \citenamefont {Fujimori},\ and\ \citenamefont {Tokura}}]{Imada:1998er}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {M.}~\bibnamefont
+  {Imada}}, \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Fujimori}},\
+  and\ \bibinfo {author} {\bibfnamefont {Y.}~\bibnamefont {Tokura}},\
+  }\bibfield  {title} {\bibinfo {title} {Metal-insulator transitions},\ }\href
+  {https://doi.org/10.1103/RevModPhys.70.1039} {\bibfield  {journal} {\bibinfo
+  {journal} {Rev. Mod. Phys.}\ }\textbf {\bibinfo {volume} {70}},\ \bibinfo
+  {pages} {1039} (\bibinfo {year} {1998})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Inosov}\ \emph {et~al.}(2011)\citenamefont {Inosov},
+  \citenamefont {Park}, \citenamefont {Charnukha}, \citenamefont {Li},
+  \citenamefont {Boris}, \citenamefont {Keimer},\ and\ \citenamefont
+  {Hinkov}}]{Inosov:2011bj}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {D.~S.}\ \bibnamefont
+  {Inosov}}, \bibinfo {author} {\bibfnamefont {J.~T.}\ \bibnamefont {Park}},
+  \bibinfo {author} {\bibfnamefont {A.}~\bibnamefont {Charnukha}}, \bibinfo
+  {author} {\bibfnamefont {Y.}~\bibnamefont {Li}}, \bibinfo {author}
+  {\bibfnamefont {A.~V.}\ \bibnamefont {Boris}}, \bibinfo {author}
+  {\bibfnamefont {B.}~\bibnamefont {Keimer}},\ and\ \bibinfo {author}
+  {\bibfnamefont {V.}~\bibnamefont {Hinkov}},\ }\bibfield  {title} {\bibinfo
+  {title} {Crossover from weak to strong pairing in unconventional
+  superconductors},\ }\href {https://doi.org/10.1103/PhysRevB.83.214520}
+  {\bibfield  {journal} {\bibinfo  {journal} {Phys. Rev. B}\ }\textbf {\bibinfo
+  {volume} {83}},\ \bibinfo {pages} {214520} (\bibinfo {year}
+  {2011})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Monthoux}\ and\ \citenamefont
+  {Scalapino}(1994)}]{Monthoux:1994jn}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {P.}~\bibnamefont
+  {Monthoux}}\ and\ \bibinfo {author} {\bibfnamefont {D.~J.}\ \bibnamefont
+  {Scalapino}},\ }\bibfield  {title} {\bibinfo {title} {{Self-consistent
+  $d_{x^2-y^2}$ pairing in a two-dimensional Hubbard model}},\ }\href
+  {https://doi.org/10.1103/PhysRevLett.72.1874} {\bibfield  {journal} {\bibinfo
+   {journal} {Phys. Rev. Lett.}\ }\textbf {\bibinfo {volume} {72}},\ \bibinfo
+  {pages} {1874} (\bibinfo {year} {1994})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Fan}\ \emph {et~al.}(2015)\citenamefont {Fan},
+  \citenamefont {Zhang}, \citenamefont {Liu}, \citenamefont {Yan},
+  \citenamefont {Ren}, \citenamefont {Peng}, \citenamefont {Xu}, \citenamefont
+  {Xie}, \citenamefont {Hu}, \citenamefont {Zhang},\ and\ \citenamefont
+  {Feng}}]{Fan:2015dl}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {Q.}~\bibnamefont
+  {Fan}}, \bibinfo {author} {\bibfnamefont {W.~H.}\ \bibnamefont {Zhang}},
+  \bibinfo {author} {\bibfnamefont {X.}~\bibnamefont {Liu}}, \bibinfo {author}
+  {\bibfnamefont {Y.~J.}\ \bibnamefont {Yan}}, \bibinfo {author} {\bibfnamefont
+  {M.~Q.}\ \bibnamefont {Ren}}, \bibinfo {author} {\bibfnamefont
+  {R.}~\bibnamefont {Peng}}, \bibinfo {author} {\bibfnamefont {H.~C.}\
+  \bibnamefont {Xu}}, \bibinfo {author} {\bibfnamefont {B.~P.}\ \bibnamefont
+  {Xie}}, \bibinfo {author} {\bibfnamefont {J.~P.}\ \bibnamefont {Hu}},
+  \bibinfo {author} {\bibfnamefont {T.}~\bibnamefont {Zhang}},\ and\ \bibinfo
+  {author} {\bibfnamefont {D.~L.}\ \bibnamefont {Feng}},\ }\bibfield  {title}
+  {\bibinfo {title} {{Plain $s$-wave superconductivity in single-layer FeSe on
+  SrTiO$_3$ probed by scanning tunnelling~microscopy}},\ }\href
+  {https://doi.org/10.1038/nphys3450} {\bibfield  {journal} {\bibinfo
+  {journal} {Nat. Phys.}\ }\textbf {\bibinfo {volume} {11}},\ \bibinfo {pages}
+  {946} (\bibinfo {year} {2015})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Zhang}\ \emph {et~al.}(2020)\citenamefont {Zhang},
+  \citenamefont {Ge}, \citenamefont {Weinert},\ and\ \citenamefont
+  {Li}}]{Zhang:2020fg}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {H.}~\bibnamefont
+  {Zhang}}, \bibinfo {author} {\bibfnamefont {Z.}~\bibnamefont {Ge}}, \bibinfo
+  {author} {\bibfnamefont {M.}~\bibnamefont {Weinert}},\ and\ \bibinfo {author}
+  {\bibfnamefont {L.}~\bibnamefont {Li}},\ }\bibfield  {title} {\bibinfo
+  {title} {Sign changing pairing in single layer {FeSe/SrTiO$_3$} revealed by
+  nonmagnetic impurity bound states},\ }\href
+  {https://doi.org/10.1038/s42005-020-0351-1} {\bibfield  {journal} {\bibinfo
+  {journal} {Communications Physics}\ }\textbf {\bibinfo {volume} {3}},\
+  \bibinfo {pages} {75} (\bibinfo {year} {2020})}\BibitemShut {NoStop}%
+\bibitem [{\citenamefont {Faeth}\ \emph {et~al.}(2020)\citenamefont {Faeth},
+  \citenamefont {Yang}, \citenamefont {Kawasaki}, \citenamefont {Nelson},
+  \citenamefont {Mishra}, \citenamefont {Chen}, \citenamefont {Schlom},\ and\
+  \citenamefont {Shen}}]{Faeth:2020un}%
+  \BibitemOpen
+  \bibfield  {author} {\bibinfo {author} {\bibfnamefont {B.~D.}\ \bibnamefont
+  {Faeth}}, \bibinfo {author} {\bibfnamefont {S.}~\bibnamefont {Yang}},
+  \bibinfo {author} {\bibfnamefont {J.~K.}\ \bibnamefont {Kawasaki}}, \bibinfo
+  {author} {\bibfnamefont {J.~N.}\ \bibnamefont {Nelson}}, \bibinfo {author}
+  {\bibfnamefont {P.}~\bibnamefont {Mishra}}, \bibinfo {author} {\bibfnamefont
+  {L.}~\bibnamefont {Chen}}, \bibinfo {author} {\bibfnamefont {D.~G.}\
+  \bibnamefont {Schlom}},\ and\ \bibinfo {author} {\bibfnamefont {K.~M.}\
+  \bibnamefont {Shen}},\ }\bibfield  {title} {\bibinfo {title} {{Incoherent
+  Cooper pairing and pseudogap behavior in single-layer {FeSe/SrTiO$_{3}$}}},\
+  }\href@noop {} {\bibfield  {journal} {\bibinfo  {journal} {arXiv}\ }
+  (\bibinfo {year} {2020})},\ \Eprint {https://arxiv.org/abs/2010.11984v1}
+  {2010.11984v1} \BibitemShut {NoStop}%
+\end{thebibliography}%
