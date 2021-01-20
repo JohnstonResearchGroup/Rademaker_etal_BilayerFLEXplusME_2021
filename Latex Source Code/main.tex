@@ -281,7 +281,7 @@ this matrix, with self-energy at lowest Matsubara frequency, are a good approxim
 
 \subsection{Computational details}\label{Appendix:ComputationalDetails}
 We solved Eqs.~(\ref{eq:Chis0})-(\ref{Eq:SelfEnergy2}) self-consistently using a \mbox{MATLAB} code.\footnote{The version of the code used to generate this work and the 
-corresponding data can be downloaded at  \url{https://github.com/JohnstonResearchGroup/Rademaker_etal_BilayerFLEX+ME_2021}} 
+corresponding data can be downloaded at  \url{https://github.com/JohnstonResearchGroup/Rademaker_etal_BilayerFLEXplusME_2021}} 
 Our implementation uses fast Fourier Transforms to evaluate the necessary convolutions in momentum and Matsubara frequency space, as described in Ref.~\cite{DeePRB2019}. The momentum grid has $N_k = 4096$ momentum points, and for each temperature we used a Matsubara frequency cut-off at $\omega_{\mathrm{max}} = \tfrac{5}{2}W$, where $W$ is the total bandwidth of the non-interacting system. Beyond this cutoff, the terms in the Matsubara sum are approximated with their non-interacting values and summed to infinite frequencies by evaluating the product in the imaginary time domain.
 
 For a given set of input parameters, we start our calculations at low temperature to find a stable symmetry-broken state iteratively using a superconducting ansatz. In practice, we initialize with a momentum-independent gap; nevertheless, small numerical roundoff errors can tip the solution towards an anisotropic (e.g. $d$-wave solution) if we iterate the self-consistency loop for long enough. As such, our code can find solutions in higher angular momentum channels (see for example Fig. 10 of Ref.~\cite{WangSUST}). 
