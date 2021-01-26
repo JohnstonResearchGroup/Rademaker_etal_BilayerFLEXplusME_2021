@@ -1,7 +1,7 @@
 # Rademaker_etal_BilayerFLEX-ME_2021
 Source code and data files for the manuscript "Enhanced superconductivity in FeSe/SrTiO3 from the combination of forward scattering phonons and spin fluctuations". 
 
-Reference: PENDING.
+Reference: arXiv:2101.08307 (2021). (https://arxiv.org/abs/2101.08307)
 
 Title: Enhanced superconductivity in FeSe/SrTiO3 from the combination of forward scattering phonons and spin fluctuations
 
